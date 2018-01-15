@@ -1,0 +1,22 @@
+# Test environment
+top_srcdir='/home/ec2-user/notebooks/ImageMagick-7.0.7-21'
+top_builddir='/home/ec2-user/notebooks/ImageMagick-7.0.7-21'
+
+set -a
+COMPARE="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick compare"
+COMPOSITE="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick composite"
+CONJURE="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick conjure"
+CONVERT="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick convert"
+DISPLAY="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick display"
+IDENTIFY="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick identify"
+MAGICK="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick"
+MONTAGE="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities/magick montage"
+VALIDATE="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/tests/validate"
+DRAWTEST="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/tests/drawtest"
+WANDTEST="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/tests/wandtest"
+LD_LIBRARY_PATH="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/coders"
+MAGICK_CONFIGURE_PATH="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/config:/home/ec2-user/notebooks/ImageMagick-7.0.7-21/config"
+MAGICK_FILTER_MODULE_PATH="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/filters"
+PATH="/home/ec2-user/notebooks/ImageMagick-7.0.7-21/utilities:/home/ec2-user/notebooks/ImageMagick-7.0.7-21/tests:${PATH}"
+set +a
